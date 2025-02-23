@@ -264,3 +264,38 @@ body {
   background-color: #d9534f;
   color: #fff;
 }
+
+/* Mobile responsiveness */
+@media screen and (max-width: 480px) {
+  #envelope {
+    width: 90%;
+    height: auto;
+    top: 50px;
+  }
+  
+  .letter {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  
+  .words.line1, .words.line2, .words.line3, .words.line4 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .reset button {
+    width: 100%;
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #envelope {
+    width: 70%;
+  }
+  
+  .letter {
+    font-size: 1rem;
+  }
+}
